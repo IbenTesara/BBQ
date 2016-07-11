@@ -1,0 +1,22 @@
+{
+  "name": "bbq",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Iben Van de Veire"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/IbenTesara/JaggedWeb",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "bootstrap": "^3.3.6"
+  }
+}

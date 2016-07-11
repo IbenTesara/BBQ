@@ -1,0 +1,40 @@
+$background: #424242;
+$border-bottom-p: 0.1em solid #E06E09;
+body {
+    background-color: $background;
+    color: whitesmoke;
+    font-family: Impact, Charcoal, sans-serif;
+    .block {
+        margin: 2em;
+        width: 40%;
+    }
+    .fire {
+        height: 30em;
+        iframe {
+            height: 100%;
+            width: 100%;
+            border: none;
+        }
+    }
+    #left {
+        float: left;
+        height: auto;
+        h1 {
+            border-bottom: $border-bottom-p;
+        }
+    }
+    #right {
+        text-align: right;
+        float: right;
+        padding-top: 3em;
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding-bottom: 3px;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
